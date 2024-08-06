@@ -1,3 +1,4 @@
+\A#!/.*python3?$
 import pandas
 import numpy
 import sklearn
@@ -22,6 +23,9 @@ print(acc)
 
 #print("Coefficient: \n", linear.coef_)
 #print("Intercept: \n", linear.intercept_)
+
+if __name__ == "__main__":
+    print()
 
 predictions = linear.predict(x_test)
 
